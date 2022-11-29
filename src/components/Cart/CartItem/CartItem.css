@@ -6,7 +6,9 @@
   }
   
   .cartItem__image {
-    width: 350px;
+    /* max-width: fit-content; */
+    /* width: auto; */
+    width: 32%;
     object-fit: contain;
     border-radius: 10px;
   }

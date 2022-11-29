@@ -1,5 +1,5 @@
 import React from "react";
-import  "./SingleItem.css";
+import "./SingleItem.css";
 
 import { connect } from "react-redux";
 import { addToCart } from "../../redux/Shopping/shopping-actions";

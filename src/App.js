@@ -22,7 +22,7 @@ function App({ current }) {
           <Route path="/" element={<Products />} />
           <Route path="/cart" element={<Cart />} />
           {!current ? (
-            <Route path="/" />
+            <Route path="/" element={<Products />}/>
           ) : (
             <Route path="/product/:id" element={<SingleItem />} />
           )}
