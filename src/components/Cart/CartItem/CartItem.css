@@ -6,8 +6,6 @@
   }
   
   .cartItem__image {
-    /* max-width: fit-content; */
-    /* width: auto; */
     width: 32%;
     object-fit: contain;
     border-radius: 10px;
